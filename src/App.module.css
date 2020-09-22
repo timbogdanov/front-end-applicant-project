@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin-top: 50px;
+}
+
+.bodyWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputWrapper {
+  width: 500px;
+  position: relative;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.optionsWrapper {
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.optionsWrapper > .option {
+  padding: 5px 15px;
+}
+
+.optionsWrapper > .option:hover {
+  background: #eeeeee;
+  border-radius: 3px;
+}
